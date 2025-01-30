@@ -15,6 +15,12 @@
     font-size: 20px;
     text-align: center;
   }
+  .grid-item img {
+    width: 100%;  /* Make image match the grid cell's width */
+    height: 100%; /* Make image match the grid cell's height */
+    object-fit: cover; /* Ensures the image fills the grid cell without distortion */
+    display: block; /* Removes extra space below image */
+}
  .item1 {
     grid-column: 1;
     grid-row: 1;
